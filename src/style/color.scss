@@ -1,0 +1,21 @@
+// Brand Colors
+$color-primary-car: var(--color-primary-car);
+$color-primary-hotel: var(--color-primary-hotel);
+$color-secondary: var(--color-secondary);
+$color-tertiary: var(--color-tertiary);
+
+// Static Colors
+$color-white: var(--color-white);
+$color-black: var(--color-black);
+
+:root {
+  // Brand Colors
+  --color-primary-car: #0d6ffc;
+  --color-primary-hotel: #f71868;
+  --color-secondary: #01efd5;
+  --color-tertiary: #6c757d;
+
+  // Static Colors
+  --color-white: #ffffff;
+  --color-black: #1e1e1e;
+}
