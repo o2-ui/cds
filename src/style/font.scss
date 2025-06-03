@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 300;
+  font-display: swap;
+  // NOTE: 사용 시, 프로젝트에 맞게 아래 경로를 변경해야 합니다.
+  src: url('../font/Pretendard-Light.woff2') format('woff2'), url('../font/Pretendard-Light.woff') format('woff'), url('../font/Pretendard-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 400;
+  font-display: swap;
+  // NOTE: 사용 시, 프로젝트에 맞게 아래 경로를 변경해야 합니다.
+  src: url('../font/Pretendard-Regular.woff2') format('woff2'), url('../font/Pretendard-Regular.woff') format('woff'), url('../font/Pretendard-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 600;
+  font-display: swap;
+  // NOTE: 사용 시, 프로젝트에 맞게 아래 경로를 변경해야 합니다.
+  src: url('../font/Pretendard-SemiBold.woff2') format('woff2'), url('../font/Pretendard-SemiBold.woff') format('woff'), url('../font/Pretendard-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 700;
+  font-display: swap;
+  // NOTE: 사용 시, 프로젝트에 맞게 아래 경로를 변경해야 합니다.
+  src: url('../font/Pretendard-Bold.woff2') format('woff2'), url('../font/Pretendard-Bold.woff') format('woff'), url('../font/Pretendard-Bold.ttf') format('truetype');
+}
