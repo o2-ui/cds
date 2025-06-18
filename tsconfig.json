@@ -10,7 +10,11 @@
     "strict": true, // 타입 엄격히 검사
     "esModuleInterop": true, // CommonJS 호환 import 가능
     "skipLibCheck": true, // 외부 타입 검사는 생략
-    "forceConsistentCasingInFileNames": true // 대소문자 불일치 방지
+    "forceConsistentCasingInFileNames": true, // 대소문자 불일치 방지
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"]
+    }
   },
   "include": ["src"],
   "exclude": ["dist", "node_modules"]
