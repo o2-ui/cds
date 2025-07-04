@@ -1,0 +1,85 @@
+@use '../../style/font.scss' as font;
+
+.Base {
+  &--typography-h1-b {
+    @extend .Typography-H1-B;
+  }
+  &--typography-h1 {
+    @extend .Typography-H1;
+  }
+  &--typography-h2-b {
+    @extend .Typography-H2-B;
+  }
+  &--typography-h2 {
+    @extend .Typography-H2;
+  }
+  &--typography-h3-b {
+    @extend .Typography-H3-B;
+  }
+  &--typography-b3 {
+    @extend .Typography-H3;
+  }
+  &--typography-h4-b {
+    @extend .Typography-H4-B;
+  }
+  &--typography-h4 {
+    @extend .Typography-H4;
+  }
+  &--typography-h5-b {
+    @extend .Typography-H5-B;
+  }
+  &--typography-h5 {
+    @extend .Typography-H5;
+  }
+  &--typography-h6-b {
+    @extend .Typography-H6-B;
+  }
+  &--typography-p1-b {
+    @extend .Typography-P1-B;
+  }
+  &--typography-p1-sb {
+    @extend .Typography-P1-SB;
+  }
+  &--typography-p1 {
+    @extend .Typography-P1;
+  }
+  &--typography-p2-b {
+    @extend .Typography-P2-B;
+  }
+  &--typography-p2-sb {
+    @extend .Typography-P2-SB;
+  }
+  &--typography-p2 {
+    @extend .Typography-P2;
+  }
+  &Typography-p3-B {
+    @extend .Typography-P3-B;
+  }
+  &Typography-P3-SB {
+    @extend .Typography-P3-SB;
+  }
+  &Typography-P3 {
+    @extend .Typography-P3;
+  }
+  &Typography-Caption-B {
+    @extend .Typography-Caption-B;
+  }
+  &Typography-Caption-SB {
+    @extend .Typography-Caption-SB;
+  }
+  &Typography-Caption {
+    @extend .Typography-Caption;
+  }
+}
+
+.Mobile {
+}
+
+.Tablet {
+}
+
+.Laptop {
+}
+
+.Desktop {
+}
