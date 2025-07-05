@@ -42,71 +42,71 @@
 }
 
 @mixin typography-h1-b {
-  @include typography(2.5rem, 700, -0.05rem);
+  @include typography(2.5rem, 700, -0.05em);
 }
 @mixin typography-h1 {
-  @include typography(2.5rem, 400, -0.05rem);
+  @include typography(2.5rem, 400, -0.05em);
 }
 @mixin typography-h2-b {
-  @include typography(2rem, 700, -0.04rem);
+  @include typography(2rem, 700, -0.04em);
 }
 @mixin typography-h2 {
-  @include typography(2rem, 400, -0.04rem);
+  @include typography(2rem, 400, -0.04em);
 }
 @mixin typography-h3-b {
-  @include typography(1.5rem, 700, -0.03rem);
+  @include typography(1.5rem, 700, -0.03em);
 }
 @mixin typography-h3 {
-  @include typography(1.5rem, 400, -0.03rem);
+  @include typography(1.5rem, 400, -0.03em);
 }
 @mixin typography-h4-b {
-  @include typography(1.25rem, 700, -0.025rem);
+  @include typography(1.25rem, 700, -0.025em);
 }
 @mixin typography-h4 {
-  @include typography(1.25rem, 400, -0.025rem);
+  @include typography(1.25rem, 400, -0.025em);
 }
 @mixin typography-h5-b {
-  @include typography(1.125rem, 700, -0.0225rem);
+  @include typography(1.125rem, 700, -0.0225em);
 }
 @mixin typography-h5 {
-  @include typography(1.125rem, 400, -0.0225rem);
+  @include typography(1.125rem, 400, -0.0225em);
 }
 @mixin typography-h6-b {
-  @include typography(1rem, 700, -0.02rem);
+  @include typography(1rem, 700, -0.02em);
 }
 @mixin typography-p1-b {
-  @include typography(1rem, 700, -0.02rem);
+  @include typography(1rem, 700, -0.02em);
 }
 @mixin typography-p1-sb {
-  @include typography(1rem, 600, -0.02rem);
+  @include typography(1rem, 600, -0.02em);
 }
 @mixin typography-p1 {
-  @include typography(1rem, 400, -0.02rem);
+  @include typography(1rem, 400, -0.02em);
 }
 @mixin typography-p2-b {
-  @include typography(0.875rem, 700, -0.0175rem);
+  @include typography(0.875rem, 700, -0.0175em);
 }
 @mixin typography-p2-sb {
-  @include typography(0.875rem, 600, -0.0175rem);
+  @include typography(0.875rem, 600, -0.0175em);
 }
 @mixin typography-p2 {
-  @include typography(0.875rem, 400, -0.0175rem);
+  @include typography(0.875rem, 400, -0.0175em);
 }
 @mixin typography-p3-b {
-  @include typography(0.75rem, 700, -0.015rem);
+  @include typography(0.75rem, 700, -0.015em);
 }
 @mixin typography-p3-sb {
-  @include typography(0.75rem, 600, -0.015rem);
+  @include typography(0.75rem, 600, -0.015em);
 }
 @mixin typography-p3 {
-  @include typography(0.75rem, 400, -0.015rem);
+  @include typography(0.75rem, 400, -0.015em);
 }
 @mixin typography-caption-b {
-  @include typography(0.625rem, 700, -0.0125rem);
+  @include typography(0.625rem, 700, -0.0125em);
 }
 @mixin typography-caption-sb {
-  @include typography(0.625rem, 600, -0.0125rem);
+  @include typography(0.625rem, 600, -0.0125em);
 }
 @mixin typography-caption {
-  @include typography(0.625rem, 400, -0.0125rem);
+  @include typography(0.625rem, 400, -0.0125em);
 }
