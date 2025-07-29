@@ -1,4 +1,4 @@
-import { ComponentProps, ElementType, memo, ReactElement, ReactNode } from 'react';
+import { ElementType, memo, ReactElement, ReactNode } from 'react';
 
 import Style from './style.module.scss';
 import { TEXT_ALIGN_VARIANTS, TEXT_STYLE_VARIANTS, VERTICAL_ALIGN_VARIANTS, WHITE_SPACE_VARIANTS, WORD_BREAK_VARIANTS } from './variants';
@@ -120,17 +120,17 @@ const getTextStyleClass = (textStyle: TextStyleType | IResponsiveTextStyle) => {
   return textStyleClass;
 };
 
-interface Props extends ComponentProps<'p'> {
+type Props<T extends ElementType> = {
   textStyle: TextStyleType | IResponsiveTextStyle;
 
+  as?: T;
   children?: ReactNode;
   className?: string;
-  as?: ElementType;
   textAlign?: TextAlignType;
   verticalAlign?: VerticalAlignType;
   wordBreak?: WordBreakType;
   whiteSpace?: WhiteSpaceType;
-}
+};
 
 /**
  * @author
@@ -140,7 +140,7 @@ interface Props extends ComponentProps<'p'> {
  * - 텍스트를 지정된 스타일과 태그로 렌더링합니다.
  * - 반응형 스타일, 줄바꿈 처리, 공백 처리 등을 지원하며 일관된 타이포그래피를 제공합니다.
  */
-const Typography = memo((props: Props): ReactElement => {
+const Typography = memo(<T extends ElementType>(props: Props<T>): ReactElement => {
   const {
     textStyle,
     children,
