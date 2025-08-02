@@ -1,0 +1,27 @@
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.LoadingSpinner {
+  outline: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 1.5rem;
+  height: 1.5rem;
+
+  &__Background {
+    stroke: #f3f3f3;
+  }
+  &__Foreground {
+    stroke: #aab4c6;
+  }
+}
+
+.SpinAnimation {
+  animation: spin 1000ms ease 0ms infinite;
+  transform-origin: 50% 50%;
+}
