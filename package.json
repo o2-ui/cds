@@ -1,19 +1,38 @@
 {
-  "name": "cds",
+  "name": "@o2-ui/cds",
   "version": "0.0.1",
-  "main": "index.js",
-  "repository": "https://github.com/WhatIsLion/CDS.git",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "author": "yunshin <2younsin@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WhatIsLion/CDS.git"
+  },
+  "scripts": {
+    "build": "vite build",
+    "lint": "eslint . --ext .ts,.tsx --fix",
+    "storybook": "storybook dev -p 6006"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
     "@storybook/addon-docs": "^9.0.15",
     "@storybook/addon-onboarding": "^9.0.4",
     "@storybook/react-vite": "^9.0.4",
+    "@types/node": "^24.1.0",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@typescript-eslint/eslint-plugin": "^8.34.1",
@@ -32,10 +51,5 @@
     "vite": "^6.3.5",
     "vite-plugin-dts": "^4.5.4",
     "vite-tsconfig-paths": "^5.1.4"
-  },
-  "scripts": {
-    "lint": "eslint . --ext .ts,.tsx --fix",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
   }
 }

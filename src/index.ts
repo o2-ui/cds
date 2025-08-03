@@ -1,1 +1,3 @@
-// memo 혹시 사용할 수도 있으니까, Props type 또한 따로 export
+export { default as Checkbox } from '@/ui/Checkbox';
+export { default as Typography } from '@/ui/Typography';
+export * as Icon from '@/ui/Icon';
