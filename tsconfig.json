@@ -1,21 +1,20 @@
 {
   "compilerOptions": {
-    "target": "ESNext", // 최신 JS 문법 출력
-    "module": "ESNext", // ESModule 출력
-    "moduleResolution": "Node", // 모듈 해석 방식
-    "jsx": "react-jsx", // React 17+ JSX 변환
-    "declaration": true, // .d.ts 파일 생성
-    "declarationDir": "dist", // 타입 정의 저장 위치
-    "emitDeclarationOnly": true, // JS는 emit 안 하고 .d.ts만
-    "strict": true, // 타입 엄격히 검사
-    "esModuleInterop": true, // CommonJS 호환 import 가능
-    "skipLibCheck": true, // 외부 타입 검사는 생략
-    "forceConsistentCasingInFileNames": true, // 대소문자 불일치 방지
-    "baseUrl": "src",
+    "target": "ESNext",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["*"]
-    }
+      "@/*": ["src/*"]
+    },
+    "declaration": true,
+    "declarationDir": "dist"
   },
-  "include": ["src"],
-  "exclude": ["dist", "node_modules"]
+  "include": ["src"]
 }

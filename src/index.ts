@@ -1,3 +1,4 @@
-export { default as Checkbox } from '@/ui/Checkbox';
-export { default as Typography } from '@/ui/Typography';
-export * as Icon from '@/ui/Icon';
+import './index.css'; // 글로벌 스타일
+
+// 개별 컴포넌트 export
+export { default as TestComponent } from './ui/TestComponent';
